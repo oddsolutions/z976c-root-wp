@@ -1,0 +1,5 @@
+#!/system/bin/sh
+PATH=/system/bin:/system/xbin:/data/local/tmp
+LD_LIBRARY_PATH=/vendor/lib:/system/lib
+dd if=/sdcard/boot.img of=/dev/block/mmcblk0p16
+reboot recovery
